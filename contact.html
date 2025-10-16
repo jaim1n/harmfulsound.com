@@ -8,12 +8,17 @@
 
 <h1>Contact Us</h1>
 <hr>
+<form action="mailto:contact@harmfulsound.com" method="post" enctype="text/plain">
+<label for="name">Name:</label><br>
+<input type="text" name="name" id="name" required><br><br>
 
-<form action="https://formsubmit.co/contact@harmfulsound.com" method="POST">
-<input type="text" name="name" placeholder="Your Name" required>
-<input type="email" name="email" placeholder="Your Email" required>
-<textarea name="message" placeholder="Message" required></textarea>
-<button type="submit">Send</button>
+<label for="email">Your Email:</label><br>
+<input type="email" name="email" id="email" required><br><br>
+
+<label for="message">Message:</label><br>
+<textarea name="message" id="message" rows="5" required></textarea><br><br>
+
+<input type="submit" value="Send">
 </form>
 
 <hr>
